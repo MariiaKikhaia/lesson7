@@ -22,24 +22,28 @@ div {
 .clearfix {
   display: block;
   clear: both;
-  height: 100px;
+  height: 10px;
   width: 100%;
 }
+
 .small {
   float: left;
 }
+
 .large {
   min-width: 310px;
   min-height: 100px;
   background-color: brown;
   float: right;
 }
+
 .first {
   min-width: 270px;
   min-height: 130px;
   background-color: brown;
   float: left;
 }
+
 .second {
   min-width: 270px;
   min-height: 130px;
@@ -59,13 +63,16 @@ div {
   min-height: 200px;
   float: left;
 }
+
 .box-center {
   float: right;
 }
+
 .box-right {
   float: right;
   clear: left;
 }
+
 .container {
   min-width: 380px;
   min-height: 330px;
